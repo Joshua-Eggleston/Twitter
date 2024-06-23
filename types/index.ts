@@ -4,7 +4,7 @@ export type User = {
     name: string;
     username: string;
     image?: string;
-  }
+  };
   export type TweetType = {
     id: string;
   content: string;
@@ -15,4 +15,4 @@ export type User = {
     numberOfRetweets?: number,
     numberOfLikes?: number,
     impressions?: number,
-  }
+  };
